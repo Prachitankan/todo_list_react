@@ -1,0 +1,5 @@
+// To add data on local storege 
+
+// ------------------(key(string), string data -> JSON.stringify -> converts array into string)
+
+localStorage.setItem("reactTodo", JSON.stringify(task));
